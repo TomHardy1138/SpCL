@@ -7,6 +7,7 @@ from .personx import PersonX
 from .veri import VeRi
 from .vehicleid import VehicleID
 from .vehiclex import VehicleX
+from .itv import Common
 
 
 __factory = {
@@ -15,7 +16,8 @@ __factory = {
     'personx': PersonX,
     'veri': VeRi,
     'vehicleid': VehicleID,
-    'vehiclex': VehicleX
+    'vehiclex': VehicleX,
+    'common': Common
 }
 
 
