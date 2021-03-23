@@ -5,7 +5,7 @@ from torchvision.datasets import ImageFolder
 
 
 class Common(BaseImageDataset):
-    dataset_dir = "SimilarityDatasetCommon"
+    dataset_dir = "common"
     test_dataset_dir = "common_test"
 
     def __init__(self, root='', verbose=False, **kwargs):
