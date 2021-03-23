@@ -8,7 +8,7 @@ setup(name='SpCL',
       author_email='geyixiao831@gmail.com',
       url='https://github.com/yxgeee/SpCL',
       install_requires=[
-          'numpy', 'torch', 'torchvision',
+          'numpy', 'torch==1.4.0', 'torchvision==0.5.0',
           'six', 'h5py', 'Pillow', 'scipy',
           'scikit-learn', 'metric-learn', 'faiss_gpu==1.6.3'],
       packages=find_packages(),
