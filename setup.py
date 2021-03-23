@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='SpCL',
-      version='1.0.0',
+      version='1.0.1',
       description='Self-paced Contrastive Learning with Hybrid Memory for Domain Adaptive Object Re-ID',
       author='Yixiao Ge',
       author_email='geyixiao831@gmail.com',
