@@ -44,10 +44,10 @@ SpCL/examples/data
 │   └── VehicleID -> VehicleID_V1.0
 ├── vehiclex
 │   └── AIC20_ReID_Simulation -> AIC20_track2/AIC20_ReID_Simulation
-└── veri
-    └── VeRi -> VeRi_with_plate
+├── veri
+│   └── VeRi -> VeRi_with_plate
 └── common
-│   └── SimilarityDatasetCommon   
+    └── SimilarityDatasetCommon   
 ```
 
 ### Prepare ImageNet Pre-trained Models for IBN-Net
