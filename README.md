@@ -20,7 +20,7 @@ The *official* repository for [Self-paced Contrastive Learning with Hybrid Memor
 ### Installation
 
 ```shell
-git clone https://github.com/yxgeee/SpCL.git
+git clone https://github.com/TomHardy1138/SpCL.git
 cd SpCL
 python setup.py develop
 ```
@@ -46,6 +46,8 @@ SpCL/examples/data
 │   └── AIC20_ReID_Simulation -> AIC20_track2/AIC20_ReID_Simulation
 └── veri
     └── VeRi -> VeRi_with_plate
+└── common
+    └── SimilarityDatasetCommon   
 ```
 
 ### Prepare ImageNet Pre-trained Models for IBN-Net
