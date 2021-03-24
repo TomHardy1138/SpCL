@@ -47,7 +47,7 @@ SpCL/examples/data
 └── veri
     └── VeRi -> VeRi_with_plate
 └── common
-    └── SimilarityDatasetCommon   
+│   └── SimilarityDatasetCommon   
 ```
 
 ### Prepare ImageNet Pre-trained Models for IBN-Net
