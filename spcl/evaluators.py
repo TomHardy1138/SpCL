@@ -71,7 +71,7 @@ def pairwise_distance(features, query=None, gallery=None):
 def evaluate_all(query_features, gallery_features, distmat, query=None, gallery=None,
                  query_ids=None, gallery_ids=None,
                  query_cams=None, gallery_cams=None,
-                 cmc_topk=(1, 5, 10), cmc_flag=False):
+                 cmc_topk=(1, 3, 5), cmc_flag=False):
     if query is not None and gallery is not None:
         query_ids = [pid for _, pid, _ in query]
         gallery_ids = [pid for _, pid, _ in gallery]
