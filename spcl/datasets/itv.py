@@ -1,6 +1,6 @@
 import os.path as osp
 
-from .bases import BaseImageDataset
+from ..utils.data import BaseImageDataset
 from torchvision.datasets import ImageFolder
 
 
